@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    font-family: 'Inter',  "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    height: 70px;
+}
+
+.notion-logo-img {
+    height: 32px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    padding-left: 80px; 
+}
+
+.nav-links li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.demo-item {
+    margin-right: 65px;
+}
+
+.line-arrow {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-right: 1.2px solid rgb(102, 102, 102);
+    border-bottom: 1.2px solid rgb(102, 102, 102);
+    transform: rotate(45deg);
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-blue {
+    text-decoration: none;
+    background-color: rgb(6, 105, 223);
+    color: rgb(255, 255, 255);
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hero-image-container {
+    width: 100%;
+    max-width: 650px; 
+    margin: 0 auto 30px auto;
+}
+
+.character-lineup-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title-container {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.title-line {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+.description {
+    font-size: 20px;
+    color: rgb(55, 53, 47);
+    line-height: 1.4;
+    max-width: 850px;
+    margin-bottom: 35px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-blue-main {
+    text-decoration: none;
+    background-color: rgb(6, 105, 223);
+    color: rgb(255, 255, 255);
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.btn-request {
+    text-decoration: none;
+    background-color: rgb(240, 246, 255);
+    color: rgb(6, 105, 223);
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+}

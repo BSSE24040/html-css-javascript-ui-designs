@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    
+    background-color: rgb(240, 242, 245); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-card {
+    background-color: rgb(240, 242, 245); 
+ 
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 740px;
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+
+.form-container {
+    flex: 1.6;
+}
+
+.logo {
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgb(32, 33, 36);
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.input-wrapper {
+    position: relative;
+    flex: 1;
+}
+
+.full-width {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 54px;
+    padding: 13px 15px;
+    border: 1.5px solid rgb(218, 220, 224);
+    border-radius: 4px;
+    font-size: 16px;
+    
+    
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.active-field input {
+    
+    border: 2px solid rgb(26, 115, 232); 
+}
+
+.notch-label {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    background: rgb(240, 242, 245); 
+    padding: 0 5px;
+    font-size: 12px;
+    color: rgb(26, 115, 232);
+}
+
+.gmail-suffix {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    color: rgb(95, 99, 104);
+}
+
+.helper-text {
+    font-size: 12px;
+    color: rgb(95, 99, 104);
+    margin-bottom: 10px;
+}
+
+.link-text {
+    color: rgb(26, 115, 232);
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.eye-icon {
+    
+    padding-left: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.next-btn {
+    background: rgb(26, 115, 232);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.graphic-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.side-img {
+    width: 244px;
+    margin-bottom: 15px;
+}
+
+.graphic-container p {
+    font-size: 16px;
+    color: rgb(32, 33, 36);
+    line-height: 1.4;
+}
+
+
+footer {
+    width: 100%;
+    max-width: 740px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(95, 99, 104);
+}
+
+.footer-right span {
+    margin-left: 25px;
+    cursor: pointer;
+}

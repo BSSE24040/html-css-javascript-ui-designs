@@ -1,0 +1,112 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 242, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    background: rgb(255, 255, 255);
+    width: 840px; 
+    padding: 40px 45px;
+    border-radius: 28px;
+    display: flex;
+    gap: 60px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.brand-section { 
+    width: 40%; 
+
+}
+.google-logo { 
+    width: 80px;
+    margin-bottom: 12px; 
+}
+
+h1 { 
+    font-size: 32px; 
+    font-weight: 400; 
+    margin-bottom: 8px; 
+    color: rgb(31, 31, 31);
+}
+
+
+.form-section { 
+    width: 60%; 
+    margin-top: 62px; 
+}
+
+.input-box {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid rgb(116, 119, 117);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    
+}
+
+.input-box:focus { 
+    border: 2px solid rgb(11, 87, 208); 
+}
+
+.link {
+    color: rgb(11, 87, 208);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot { 
+    display: block; 
+    margin-bottom: 35px; 
+}
+
+.guest-msg {
+    font-size: 14px;
+    color: rgb(68, 71, 70);
+    margin-bottom: 40px;
+    
+}
+
+.button-row {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 24px; 
+}
+
+.next-btn {
+    background-color: rgb(11, 87, 208);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer {
+    width: 840px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(68, 71, 70);
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgb(68, 71, 70);
+    margin-left: 25px;
+}
